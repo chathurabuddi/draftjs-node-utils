@@ -1,0 +1,37 @@
+{
+  "name": "draftjs-node-utils",
+  "version": "1.0.0",
+  "description": "draft-js html conversion utils for node",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "draft-js-import-element": "^1.4.0",
+    "eslint": "^8.28.0",
+    "jsdom": "^20.0.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chathurabuddi/draftjs-node-utils.git"
+  },
+  "keywords": [
+    "draft-js",
+    "draftjs",
+    "html",
+    "node.js",
+    "npm",
+    "module"
+  ],
+  "author": "Chathura Buddhika",
+  "contributors": [
+    "chathurabuddi <contact@chathurabuddi.lk> (http://chathurabuddi.lk)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chathurabuddi/draftjs-node-utils/issues"
+  }
+}
