@@ -4,7 +4,8 @@
   "description": "draft-js html conversion utils for node",
   "main": "index.js",
   "devDependencies": {
-    "jest": "^29.3.1"
+    "jest": "^29.3.1",
+    "standard-version": "^9.3.2"
   },
   "dependencies": {
     "draft-js-import-element": "^1.4.0",
@@ -12,7 +13,8 @@
     "jsdom": "^20.0.3"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
