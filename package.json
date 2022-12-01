@@ -1,6 +1,6 @@
 {
   "name": "draftjs-node-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "draft-js html conversion utils for node",
   "main": "index.js",
   "devDependencies": {
