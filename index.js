@@ -1,3 +1,3 @@
-import htmlToDraftJs from './htmlToDraftJs';
+const htmlToDraftJs = require('./htmlToDraftJs');
 
-export { htmlToDraftJs };
+module.exports = { htmlToDraftJs };
