@@ -1,10 +1,10 @@
-import { stateFromElement } from 'draft-js-import-element';
-import { JSDOM } from "jsdom";
+const { stateFromElement } = require('draft-js-import-element');
+const jsdom = require('jsdom');
 
 const defaultOptions = {};
 
 const parseHTML = (html) => {
-    const dom = new JSDOM(html)
+    const dom = new jsdom.JSDOM(html)
     const doc = dom.window.document.implementation.createHTMLDocument('');
     if (doc.documentElement) {
         doc.documentElement.innerHTML = html;
@@ -21,4 +21,4 @@ const htmlToDraftJs = (html, options) => {
     return stateFromElement(element, otherOptions);
 }
 
-export default htmlToDraftJs;
+module.exports = htmlToDraftJs;
